@@ -117,7 +117,7 @@ public class Power
 	[TestMethod]
 	public void Power_Valid_Ngo()
 	{
-		Assert.AreEqual(6, Program.Power("2", "3"));
+		Assert.AreEqual(8, Program.Power("2", "3"));
 		Assert.AreEqual(25, Program.Power("5", "2"));
 		Assert.AreEqual(343, Program.Power("7", "3"));
 	}
