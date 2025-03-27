@@ -68,6 +68,7 @@ public class Multiplication
 	}
 
 	[TestMethod]
+	public void Multiply_Invalid_Ngo()
 	{
 		Assert.ThrowsException<FormatException>(() => Program.Multiply("1", "a"));
 		Assert.ThrowsException<FormatException>(() => Program.Multiply("a", "1"));
